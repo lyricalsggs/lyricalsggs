@@ -1,0 +1,177 @@
+body{
+    min-height: 100vh;
+  background-image: url(img/pics/fg.jpg);
+   margin: 0px;
+     padding: 0px;
+     display: flex;
+     justify-content: center; align-items: center;
+ }
+ /*neon Button*/
+ .a-n2,.a-n1{ margin-left: 20px;
+     text-decoration: none; position: relative;  padding: 15px 30px; overflow: hidden; transition: 0.2s all;  color: #fff; text-transform: uppercase; letter-spacing: 4px;
+ }
+ .a-n1:hover{
+     background:#F4D03F; color: #000;
+     box-shadow: 0px 0px 10px #F4D03F, 0px 0px 40px#F4D03F, 0px 0px 80px #F4D03F; transition-delay: 0.2s;
+ }    
+ .a-n2 span,.a-n1 span{
+     position: absolute;
+     display: block;
+ }
+ .a-n1 span:nth-child(1){
+  top:0px;
+  left:-100%;
+  width: 100%;
+  height: 2px; 
+  background: linear-gradient(90deg,transparent,#F4D03F )
+ }
+  
+ .a-n1:hover span:nth-child(1){
+ 
+     left:100%; 
+     transition: 0.5s; 
+ }
+ 
+ 
+ .a-n1 span:nth-child(3){
+  bottom:0px;
+  right:-100%;
+  width: 100%;
+  height: 2px; 
+  background: linear-gradient(270deg,transparent,#F4D03F )
+ }
+  
+ .a-n1:hover span:nth-child(3){
+ 
+     right:100%; 
+     transition: 0.5s; 
+     transition-delay: 0.5s;
+ }
+ 
+ 
+ 
+ .a-n1 span:nth-child(2){
+  top:-100%;
+  right:0;
+  width:  2px;
+  height: 100%; 
+  background: linear-gradient(180deg,transparent,#F4D03F )
+ }
+  
+ .a-n1:hover span:nth-child(2){
+     top:100%; 
+     transition: 0.5s; transition-delay: 0.25s;
+ }
+ 
+ .a-n1 span:nth-child(4){
+  bottom:-100%;
+  left:0;
+  width:  2px;
+  height: 100%; 
+  background: linear-gradient(360deg,transparent,#F4D03F )
+ }
+  
+ .a-n1:hover span:nth-child(4){
+     bottom:100%; 
+     transition: 0.5s;  transition-delay: 0.75s;
+ }
+ 
+ 
+ .a-n2:hover{
+     background:#26a0da; color: #000;
+     box-shadow: 0px 0px 10px #26a0da, 0px 0px 40px#26a0da, 0px 0px 80px #26a0da; transition-delay: 0.2s;
+ }
+ 
+ 
+ .a-n2 span:nth-child(1){
+     top: 0px;
+     left: -91%;
+     width: 100%;
+     height: 2px;
+     background: #26a0da;
+ }
+  
+ .a-n2:hover span:nth-child(1){
+ 
+     left:0%; 
+     transition: 0.3s; 
+ }
+ 
+ 
+ .a-n2 span:nth-child(3){
+     bottom: 0px;
+     right: -91%;
+     width: 100%;
+     height: 2px;
+     background: #26a0da;
+ }
+  
+ .a-n2:hover span:nth-child(3){
+ 
+     right:0%; 
+     transition: 0.3s; 
+ }
+ 
+ .a-n2 span:nth-child(2){
+     bottom: -70%;
+     right: 0%;
+     width: 2px;
+     FONT-WEIGHT: 100;
+     background: #26a0da;
+     height: 100%;
+ }
+  
+ .a-n2:hover span:nth-child(2){
+ 
+     bottom:0%; 
+     transition: 0.3s; 
+ }
+ 
+ 
+ 
+ .a-n2 span:nth-child(4){
+     top: -70%;
+     left: 0%;
+     width: 2px;
+     FONT-WEIGHT: 100;
+     background: #26a0da;
+     height: 100%;
+ }
+  
+ .a-n2:hover span:nth-child(4){
+ 
+     top:0%; 
+     transition: 0.3s; 
+ }
+
+ .bg {
+    /* The image used */
+    background-image: url(img/pics/fg.jpg);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .header{
+    overflow: hidden;
+    transition: 0.2s all;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    font-size: 50px;
+    position: fixed;
+    top: 50px;
+    left: 775px;
+    transform: translate(-50%, -50%);
+  }
+
+ 
+
+
+
+ 

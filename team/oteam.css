@@ -1,0 +1,42 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+
+  background: url(picsall/fg.jpg);
+
+  height: 100%; 
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.centered {
+    overflow: hidden;
+    transition: 0.2s all;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .players{
+    position:absolute;
+    float:left; 
+    width:200px; 
+    margin-left:30px;
+    background-color: #f2dede
+  }
+
+  .other{
+   overflow:hidden;
+  }
+
