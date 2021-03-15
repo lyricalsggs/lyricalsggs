@@ -1,10 +1,10 @@
 body{
     min-height: 100vh;
-  background-image: url(img/pics/fg.jpg);
-   margin: 0px;
-     padding: 0px;
-     display: flex;
-     justify-content: center; align-items: center;
+    background-image: url(img/pics/fg.jpg);
+    margin: 0px;
+       padding: 0px;
+       display: flex;
+       justify-content: center; align-items: center;
  }
  /*neon Button*/
  .a-n2,.a-n1{ margin-left: 20px;
@@ -144,31 +144,22 @@ body{
      transition: 0.3s; 
  }
 
- .bg {
-    /* The image used */
-    background-image: url(img/pics/fg.jpg);
-  
-    /* Full height */
-    height: 100%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .header{
-
+  .Header{
     font-size: 50px;
-    color:whitesmoke;
     position: absolute;
-    width: 100px;
-    height: 100px;
-    left:590px;
-    top:50px;
+    top: 10%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    color:white;
     letter-spacing: 25px;
     text-transform: uppercase;
-    
+    overflow: hidden;
+    padding: 15px 30px;
+    text-decoration: none;
+    transition: 0.2s all;
+
+    /*
+    */
 
   }
 
