@@ -158,16 +158,18 @@ body{
   }
 
   .header{
-    overflow: hidden;
-    transition: 0.2s all;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 20px;
+
     font-size: 50px;
-    position: fixed;
-    top: 50px;
-    left: 764px;
-    transform: translate(-50%, -50%);
+    color:whitesmoke;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left:590px;
+    top:50px;
+    letter-spacing: 25px;
+    text-transform: uppercase;
+    
+
   }
 
  
